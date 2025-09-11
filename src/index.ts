@@ -45,10 +45,6 @@ const pokemonRepository = new PokemonRepository();
 const pokemonService = new PokemonService(pokemonRepository);
 
 function main() {
-  /* Add 3 pokemons to the pokemon repository
-  - Average level must be greater than 80
-  - Example: pokemonRepository.addPokemon(DEFAULT_POKEMONS.bulbasaur);
-  */
   pokemonRepository.addPokemon(DEFAULT_POKEMONS.bulbasaur);
   pokemonRepository.addPokemon(DEFAULT_POKEMONS.mewtwo);
   pokemonRepository.addPokemon(DEFAULT_POKEMONS.dragonite);
