@@ -16,16 +16,5 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
-# configuraciones del IDE/editor
-.vscode/
-.idea/
-
-# archivos de entorno
+# variables de entorno
 .env
-.env.local
-.env.development
-.env.production
-.env.test
-
-# coverage de tests
-coverage/
