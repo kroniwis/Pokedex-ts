@@ -1,10 +1,7 @@
 {
   "name": "project",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "",
-=======
->>>>>>> 4fd9ea85d7b01b354b99450d7b6d49ebaa1d11bb
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,11 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
   "type": "commonjs",
-=======
-  "description": "",
->>>>>>> 4fd9ea85d7b01b354b99450d7b6d49ebaa1d11bb
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"

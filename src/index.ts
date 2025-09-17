@@ -2,11 +2,7 @@ import { Pokemon } from "./models/Pokemon";
 import { PokemonRepository } from "./repositories/PokemonRepository";
 import { PokemonService } from "./services/PokemonService";
 
-<<<<<<< HEAD
 const DEFAULT_POKEMONS: Record<string, Pokemon> = {
-=======
-const DEFAULT_POKEMONS = {
->>>>>>> 4fd9ea85d7b01b354b99450d7b6d49ebaa1d11bb
   bulbasaur: new Pokemon("bulbasaur", 96, {
     hp: 95,
     attack: 65,
@@ -49,7 +45,7 @@ const pokemonRepository = new PokemonRepository();
 const pokemonService = new PokemonService(pokemonRepository);
 
 function main() {
-<<<<<<< HEAD
+
   const args = process.argv.slice(2);
   const command = args[0];
 
@@ -94,7 +90,7 @@ function main() {
       console.log("  fastest");
       break;
   }
-=======
+
   pokemonRepository.addPokemon(DEFAULT_POKEMONS.bulbasaur);
   pokemonRepository.addPokemon(DEFAULT_POKEMONS.mewtwo);
   pokemonRepository.addPokemon(DEFAULT_POKEMONS.dragonite);
@@ -104,7 +100,7 @@ function main() {
   if (averageLevel < 80) throw new Error("Average level is less than 80");
   console.log("Average level: ", averageLevel);
   console.log("Fastest pokemon: ", fastestPokemon);
->>>>>>> 4fd9ea85d7b01b354b99450d7b6d49ebaa1d11bb
+
 }
 
 main();
